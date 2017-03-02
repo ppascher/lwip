@@ -16,6 +16,8 @@ environment:
       msvs_version: 2013
     - nodejs_version: "4.1"
       msvs_version: 2015
+    - nodejs_version: "7.7.1"
+      msvs_version: 2015
 
 install:
   - ps: Install-Product node $env:nodejs_version
